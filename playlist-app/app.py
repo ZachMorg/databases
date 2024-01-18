@@ -155,3 +155,8 @@ def add_song_to_playlist(playlist_id):
         return redirect(f"/playlists/{playlist_id}")
 
     return render_template("add_song_to_playlist.html", playlist=playlist, form=form)
+
+
+#suggestions
+#1. Add try-except blocks in route functions to handle potential exceptions
+#2. Implement unit tests to validate the correctness of the application's functionalities, this will ensure that changes or updates don't introduce regressions.
